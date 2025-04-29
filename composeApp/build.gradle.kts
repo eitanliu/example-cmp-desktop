@@ -24,6 +24,7 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
 
+            implementation(project.dependencies.platform(libs.kotlinx.coroutines.bom))
             implementation(project.dependencies.platform(libs.compose.bom))
             implementation(libs.androidx.lifecycle.viewmodel)
             implementation(libs.androidx.lifecycle.runtime.compose)
