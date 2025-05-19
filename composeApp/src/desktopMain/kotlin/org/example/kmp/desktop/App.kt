@@ -19,8 +19,8 @@ import androidx.navigation.compose.rememberNavController
 import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 
-import cmpdesktop.composeapp.generated.resources.Res
-import cmpdesktop.composeapp.generated.resources.compose_multiplatform
+import cmp_desktop.composeapp.generated.resources.Res
+import cmp_desktop.composeapp.generated.resources.compose_multiplatform
 
 
 @Composable
